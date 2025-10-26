@@ -20,16 +20,14 @@ body, html {
 }
 
 main {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
 
 section#login {
-    left: 50%;
-    top: 50%;
-    position: absolute;
-
     background-color: white;
     width: 275px;
     height: 525px;
@@ -39,7 +37,6 @@ section#login {
 
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
-    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
